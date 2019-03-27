@@ -9,7 +9,7 @@ espace = point
 
 led = LED(17)
 
-while True:
+def S(
     led.on()
     sleep(point)
     led.off()
@@ -20,4 +20,4 @@ while True:
     sleep(espace)
     led.on()
     sleep(point)
-
+)
