@@ -9,8 +9,8 @@ espace = point
 
 led = LED(17)
 
-while True:
+def T(
     led.on()
     sleep(tiret)
     led.off()
-
+)
