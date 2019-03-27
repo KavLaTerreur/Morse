@@ -7,7 +7,7 @@ espace = point
 
 led = LED(17)
 
-while True:
+function A()
     led.on()
     sleep(point)
     led.off()
