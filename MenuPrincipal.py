@@ -1,4 +1,30 @@
 from gpiozero import LED
+from a import A
+from b import B
+from c import C
+from d import D
+from e import E
+from f import F
+from g import G
+from h import H
+from i import I
+from j import J
+from k import K
+from l import L
+from m import M
+from n import N
+from o import O
+from p import P
+from q import Q
+from r import R
+from s import S
+from t import T
+from u import U
+from v import V
+from w import W
+from x import X
+from y import Y
+from z import Z
 from time import sleep
 
 point = 0.2
@@ -12,110 +38,109 @@ message = input('Que voulez-vous dire ?')
 
 for x in message:
     if x.upper() == 'A':
-        exec(open("./a.py".read()))
+        A()
         sleep(espaceLettre)
 
     elif x.upper() == 'B':
-        import b
+        B()
         sleep(espaceLettre)
 
     elif x.upper() == 'C':
-        import c
+        C()
         sleep(espaceLettre)
 
     elif x.upper() == 'D':
-        import d
+        D()
         sleep(espaceLettre)
 
     elif x.upper() == 'E':
-        import e
+        E()
         sleep(espaceLettre)
 
     elif x.upper() == 'F':
-        import f
+        F()
         sleep(espaceLettre)
 
     elif x.upper() == 'G':
-        import g
+        G()
         sleep(espaceLettre)
 
     elif x.upper() == 'H':
-        import h
+        H()
         sleep(espaceLettre)
 
     elif x.upper() == 'I':
-        import i
+        I()
         sleep(espaceLettre)
 
     elif x.upper() == 'J':
-        import j
+        J()
         sleep(espaceLettre)
 
     elif x.upper() == 'K':
-        import k
+        K()
         sleep(espaceLettre)
 
     elif x.upper() == 'L':
-        import l
+        L()
         sleep(espaceLettre)
 
     elif x.upper() == 'M':
-        import m
+        M()
         sleep(espaceLettre)
 
     elif x.upper() == 'N':
-        import n
+        N()
         sleep(espaceLettre)
 
     elif x.upper() == 'O':
-        import o
+        O()
         sleep(espaceLettre)
 
     elif x.upper() == 'P':
-        import p
+        P()
         sleep(espaceLettre)
 
     elif x.upper() == 'Q':
-        import q
+        Q()
         sleep(espaceLettre)
 
     elif x.upper() == 'R':
-        import r
+        R()
         sleep(espaceLettre)
 
     elif x.upper() == 'S':
-        import s
+        S()
         sleep(espaceLettre)
 
     elif x.upper() == 'T':
-        import t
+        T()
         sleep(espaceLettre)
 
     elif x.upper() == 'U':
-        import u
+        U()
         sleep(espaceLettre)
 
     elif x.upper() == 'V':
-        import v
+        V()
         sleep(espaceLettre)
 
     elif x.upper() == 'W':
-        import w
+        W()
         sleep(espaceLettre)
 
     elif x.upper() == 'X':
-        import x
+        X()
         sleep(espaceLettre)
 
     elif x.upper() == 'Y':
-        import y
+        Y()
         sleep(espaceLettre)
 
     elif x.upper() == 'Z':
-        import z
+        Z()
         sleep(espaceLettre)
 
     elif x == ' ':
         sleep(espaceMot)
-
 
