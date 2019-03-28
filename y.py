@@ -2,13 +2,13 @@ from gpiozero import LED
 from time import sleep
 
 
-point = 0.2
-tiret = point * 3
-espace = point
-
-led = LED(17)
 
 def Y():
+    point = 0.2
+    tiret = point * 3
+    espace = point
+
+    led = LED(17)
     led.on()
     sleep(tiret)
     led.off()
