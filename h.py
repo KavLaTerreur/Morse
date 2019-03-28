@@ -7,7 +7,7 @@ espace = point
 
 led = LED(17)
 
-def H(
+def H():
     led.on()
     sleep(point)
     led.off()
@@ -24,7 +24,7 @@ def H(
     sleep(point)
     led.off()
     sleep(espace)
-)
+
 
 
 
