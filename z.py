@@ -7,7 +7,7 @@ espace = point
 
 led = LED(17)
 
-def Z(
+def Z():
     led.on()
     sleep(tiret)
     led.off()
@@ -24,4 +24,4 @@ def Z(
     sleep(point)
     led.off()
     sleep(espace)
-)
+
