@@ -7,7 +7,7 @@ espace = point
 
 led = LED(17)
 
-def G(
+def G():
 	led.on()
 	sleep(tiret)
 	led.off()
@@ -20,5 +20,5 @@ def G(
 	sleep(point)
 	led.off()
 	sleep(espace)
-)
+
 
