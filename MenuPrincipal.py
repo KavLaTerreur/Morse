@@ -34,7 +34,7 @@ espaceElement = point
 espaceLettre = point * 3
 espaceMot = point * 7 - espaceLettre
 
-message = input('Que voulez-vous dire ?')
+message = raw_input('Que voulez-vous dire ? ')
 
 for x in message:
     if x.upper() == 'A':

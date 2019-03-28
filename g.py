@@ -15,7 +15,7 @@ def G():
 	sleep(espace)
 	led.on()
 	sleep(tiret)
-	lead.off()
+	led.off()
 	sleep(espace)
 	led.on()
 	sleep(point)
