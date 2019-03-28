@@ -5,7 +5,6 @@ point = 0.2
 tiret = point * 3
 espace = point
 
-led = LED(17)
 
 def H():
     led.on()
